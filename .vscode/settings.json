@@ -1,0 +1,36 @@
+{
+    "cSpell.words": [
+        "acheté",
+        "acheter",
+        "adversaires",
+        "afirst",
+        "amiddle",
+        "annoucments",
+        "Aucun",
+        "Bienvenu",
+        "Connexion",
+        "cstm",
+        "dans",
+        "débuté",
+        "déconnecter",
+        "départ",
+        "fini",
+        "Fontawesome",
+        "GAGNANT",
+        "identifiant",
+        "introuvable",
+        "Molla",
+        "Nums",
+        "Prochain",
+        "S'inscrire",
+        "Salut",
+        "Serie",
+        "sommes",
+        "swal",
+        "sweetalert",
+        "wrraper"
+    ],
+    "i18n-ally.localesPaths": [
+        "src/lang"
+    ]
+}

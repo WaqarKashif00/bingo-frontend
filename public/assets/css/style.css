@@ -1,0 +1,226 @@
+body {
+  background-color: #1d3b4f;
+}
+.wrraper {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.wrraper .home-page {
+  width: 100%;
+  height: 100vh;
+  padding-top: 10rem;
+}
+.wrraper .home-page .home-content {
+  width: 500px;
+  margin: 0 auto;
+  min-height: 100px;
+}
+
+.wrraper .login-page {
+  width: 100%;
+  height: 100vh;
+}
+.wrraper .login-page .login-content {
+  width: 500px;
+  margin: 0 auto;
+  min-height: 100px;
+}
+.wrraper .login-page .login-content .card {
+  width: 54%;
+}
+.wrraper .login-page .login-content .card button {
+  font-size: 21px;
+}
+.wrraper .ticket-table {
+  width: 100%;
+  height: 100vh;
+}
+.wrraper .ticket-table .table-content {
+  position: relative;
+  max-width: 600px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.wrraper .ticket-table .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.wrraper .ticket-table .footer ul li a {
+  font-size: 21px;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+.wrraper .ticket-table .footer ul li a:hover {
+  color: #888;
+}
+/* Buttons */
+.btn-green {
+  background-color: #70ad47;
+}
+.btn-green:hover {
+  background-color: #69cc27;
+}
+.btn-yellow {
+  background-color: #ffc000;
+}
+
+.btn-yellow:hover {
+  background-color: #d8a610;
+}
+.btn-ticket {
+  background-color: #ed7d31;
+  color: #fff;
+}
+
+.btn-ticket:hover {
+  background-color: #ff6600;
+}
+/* Background */
+.bg-yellow {
+  background-color: #ffc000;
+}
+/* Colors */
+.text-secondary-light {
+  color: rgb(209, 209, 209);
+}
+/* Form */
+.custom-control {
+  border: 1px solid #888;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+  text-align: center;
+  background-color: #999;
+  color: #fff;
+}
+
+::placeholder {
+  font-size: 21px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Fonts */
+.font-w-s {
+  font-weight: lighter;
+  letter-spacing: 6px;
+}
+
+/* Table */
+table tr td {
+  border-top: 3px solid #000 !important;
+  border-bottom: 3px solid #000 !important;
+}
+/* Borers */
+.border-warning {
+  width: 340px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #d8a610;
+}
+.border-top-blue {
+  border-top: 1px solid rgb(95, 95, 209);
+}
+
+.border-radius-none {
+  border-radius: 0 !important;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 50px #ffff00 !important;
+}
+
+.round-orange-border {
+  border-style: solid;
+  border-color: orange;
+  font-weight: bold !important;
+}
+
+.round-yellow-border {
+  border-style: solid;
+  border-color: yellow;
+  font-weight: bold !important;
+}
+
+.text-decoration-style-none {
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.serie {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.serie > :not(:last-child) {
+  margin-bottom: 0.3em;
+}
+
+.ticket {
+  width: 100%;
+  font-family: Courier New, Courier, monospace;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(9, 5em);
+  grid-template-rows: repeat(3, 1.5em);
+  grid-gap: 0.1em;
+  padding: 0.2em;
+  border: 0.05em solid #000;
+  border-radius: 0.2em;
+}
+
+.ticket__number {
+  position: relative;
+  z-index: 100;
+  text-align: center;
+  /* border-radius: 15%; */
+  background-color: #ccc;
+  border: 0.05em solid #000;
+  cursor: pointer;
+}
+
+.ticket__number.-is-empty {
+  background-color: transparent;
+  cursor: initial;
+}
+
+.ticket__number.-is-marked {
+  position: relative;
+  background-color: #3366cc;
+  color: snow;
+  z-index: 200;
+  animation: 0.75s ease-in-out reverse button-marked;
+}
+
+@keyframes button-marked {
+  to {
+    transform: scale(2);
+  }
+}
+
+.wrraper .cstm-header {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.selected-bingo-num {
+  background: orange;
+  color: orange;
+  border-radius: 50%;
+}
+
+.limegreen > span {
+  color: black !important;
+}
